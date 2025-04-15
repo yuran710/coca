@@ -1,5 +1,7 @@
+@import './mixins/';
 
 
-.body {
-background: #000;
+header {
+    @include flex-aling-center;
+    @include flex-justify-center;
 }
